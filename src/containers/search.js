@@ -42,7 +42,7 @@ export default function Search() {
     return(
         <div className="search-body" style={{backgroundImage: `url(${foodPic[number] && foodPic[number].urls.full})`}}>
             <section className="search-section">
-                <h1>Idriss's Recipe Book</h1>
+                <h1>My Recipe Book</h1>
                 <div className="search">
                     <input type="text" 
                         className="search-bar" 
@@ -58,9 +58,9 @@ export default function Search() {
                 </div>
             </section>
             <footer>
-                <p>Food: {foodPic[number] && foodPic[number].alt_description}</p>
-                <p>Photo by: {foodPic[number] && foodPic[number].user.name}</p>
-                <p>Made by: Idriss Dimson</p>
+                <p><strong>Food:</strong> {foodPic[number] && foodPic[number].alt_description}</p>
+                <p><strong>Photo by:</strong> {foodPic[number] && foodPic[number].user.name}</p>
+                <p><strong>Made by:</strong> Idriss Dimson</p>
             </footer>
         </div>
     );

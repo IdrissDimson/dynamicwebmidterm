@@ -63,6 +63,9 @@ footer {
     background-color: #5F6368;
     color: #fff;
 }
+footer p {
+    text-transform: capitalize;
+}
 @media screen and (max-width: 820px) {
     .search-bar{
         width: 300px;
