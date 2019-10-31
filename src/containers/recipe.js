@@ -53,7 +53,7 @@ export default function Recipe(props) {
 
     return (
         <div>
-            <h1>Results for: {food} <a href="../">Back to Search</a></h1>
+            <h1>Results for: {food} <br/> <a href="../">Back to Search</a></h1>
             <div>
                 <button className="button" onClick={previousPage} disabled={numSwitch < 1}>Previous Page</button>
                 <button className="button" onClick={newPage} disabled={!recipe.more}>Next Page</button>

@@ -60,6 +60,7 @@ export default function Search() {
             <footer>
                 <p>Food: {foodPic[number] && foodPic[number].alt_description}</p>
                 <p>Photo by: {foodPic[number] && foodPic[number].user.name}</p>
+                <p>Made by: Idriss Dimson</p>
             </footer>
         </div>
     );
