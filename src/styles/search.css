@@ -8,7 +8,7 @@
 }
 .search-section h1 {
     margin: auto;
-    margin-bottom: 0px;
+    margin-bottom: 20px;
     color: #5F6368;
     background-color: white;
     border: 3px solid #000;
@@ -22,11 +22,13 @@
 }
 .search-bar{
     width: 500px;
-    height: 25px;
+    height: 20px;
 
-    font-size: 14px;
+    font-size: 16px;
     border: 3px solid #000;
     padding: 10px;
+
+    margin-right: 5px;
     -webkit-tap-highlight-color: transparent;
 }
 .search-section{
@@ -42,16 +44,14 @@
 .search-button{
     background-color: #f2f2f2;
     border: 3px solid #000;
-    border-radius: 4px;
     color: #5F6368;
     font-family: arial, sans-serif;
 
     font-size: 14px;
-    margin: 11px 0px;
     padding: 0 16px;
 
     line-height: 27px;
-    height: 50px;
+    height: 47px;
     min-width: 54px;
 
     text-align: center;
@@ -62,4 +62,9 @@ footer {
     padding: 5px;
     background-color: #5F6368;
     color: #fff;
+}
+@media screen and (max-width: 820px) {
+    .search-bar{
+        width: 300px;
+    }
 }

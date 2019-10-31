@@ -5,13 +5,14 @@ import axios from 'axios';
 import '../styles/search.css';
 
 export default function Search() {
+    const collection = '251966';
     const number = getRandomNumber(0,9);
+
     let [foodPic, setFoodPic] = useState({});
     let queryWord = '';
     let history = useHistory();
     let querytext = document.getElementById("queryText");
     
-    const collection = '251966';
 
     function getRandomNumber(min, max) {
         min = Math.ceil(min);
