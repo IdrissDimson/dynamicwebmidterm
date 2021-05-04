@@ -42,7 +42,9 @@ export default function Search() {
     return(
         <div className="search-body" style={{backgroundImage: `url(${foodPic[number] && foodPic[number].urls.full})`}}>
             <section className="search-section">
-                <h1>My Recipe Book</h1>
+                <section className="transparent-background">
+                </section>
+                <h1>MY RECIPE BOOK</h1>
                 <div className="search">
                     <input type="text" 
                         className="search-bar" 
